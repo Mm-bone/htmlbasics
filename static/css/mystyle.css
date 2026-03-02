@@ -1,0 +1,60 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+header{
+    background-color:plum;
+    padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul a{
+    text-decoration:none;
+    color:darkmagenta;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav ul a:hover{
+    background-color: aqua;
+    color: black;
+}
+#hero{
+    height: 70vh;
+    background:url("../images/hell\'s\ paradise.jpeg") no-repeat center center/cover;
+    padding: 10px;
+}
+#hero-content{
+    text-align: center;
+    font-size: 32px;
+    color:magenta;
+}
+#features{
+    max-width: 800px;
+    margin: 10px auto;
+}
+h2{
+    color:mediumorchid;
+    text-align: center;
+}
+h3{
+    color: deeppink;
+}
+.container{
+    display: flex;
+}
+.feature{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px lightcoral;
+    margin: 10px;
+
+}
+footer{
+     background-color:plum;
+    padding: 20px;
+    text-align: center;
+
+}

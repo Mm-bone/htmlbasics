@@ -1,0 +1,33 @@
+body{
+    background-color:lightblue;
+}
+h2{
+    color:darkred;
+}
+h3{
+    color: midnightblue;
+}
+#container{
+    display:flex;
+    flex-direction:row;
+    gap: 20px;
+    justify-content: center;
+}
+.service{
+    background-color: aqua;
+    border: 1px black solid;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px crimson;
+    padding: 10px;
+}
+/* responsiveness */
+@media(max-width:768px){
+    body{
+        background-color:olivedrab;
+    }
+
+    #container{
+        flex-direction: column;
+    }
+}

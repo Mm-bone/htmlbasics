@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+ <header>
+    <ul>
+        <li><a href="basics.html">Home</a></li>
+        <li> <a href="images.html">My gallery</a></li>
+        <li><a href="lists.html">My lists</a></li>
+        <li><a href="tables.html">My table</a></li>
+    </ul>
+ </header> 
+ <h1 style="color:blue;">Simple form</h1>  
+ <form>
+    <label for="FN">Full name:</label>
+    <input type="text" id="FN" required placeholder="Please enter your name"><br><br>
+    <label for="email">Email address</label>
+    <input type="email" id="email" required placeholder="Enter your email"><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age"><br><br>
+    <label>Gender:</label><br>
+    <label for="Male">Male</label>
+    <input type="radio" id="Male" name="Gender"><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="Gender"><br><br>
+    <label for="">Course:</label>
+    <select name="" id="course">
+        <option value="MIT">Full stack software development</option>
+        <option value="CYBER">Cybersecurity</option>
+        <option value="DS">Datascience</option>
+        <option value="AI">Artificial intelligence</option>
+    </select> <br><br>
+    <label for="Terms" required>Agree terms and conditions</label> 
+    <input type="checkbox" id="Terms">
+    <label for="message">Tell us about yourself</label> <br>
+    <textarea name="" id="message" cols="30" rows="5"></textarea> <br>
+
+
+
+
+
+
+
+
+
+<button type="submit">SUBMIT DATA</button>
+</form>
+</body>
+</html>
