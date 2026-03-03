@@ -1,0 +1,53 @@
+h1{
+ animation: myanimations 3s infinite;
+}
+#one{
+      color: darkorange;
+    /* animation-name: Mmbori;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+    animation: Mmbori 5s infinite;  
+}
+#mydiv{
+    width: 200px;
+    height: 200px;
+    background-color:moccasin;
+    animation: rotate 4s 5;
+}
+@keyframes Mmbori{
+    0%{
+        color: darkorange;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: blue;
+    }
+    100%{
+        color: darkgreen;
+    }
+}
+@keyframes myanimations{
+    from{
+        transform: translateX(0);
+        color: red;
+    }
+    to{
+        transform: translateX(800px);
+        color: aquamarine;
+    }
+}
+@keyframes rotate{
+    0%{
+       transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+        background-color: bisque;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: silver;
+    }
+}
